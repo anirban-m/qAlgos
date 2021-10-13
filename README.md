@@ -9,3 +9,9 @@ is added to ansatz. The use case demonstrates how one can cosntruct hardware eff
 The cost function has the form
 
 
+![VQD](adaptVQD.jpg)
+
+
+Here beta is a penalty function that penalizes the overlap of the newly sought after state with the ground state. Definitely a caveat of the above algorithm is that it ignores the possible of degenerate subspaces.
+
+
